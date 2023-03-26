@@ -1,3 +1,19 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "Title Bar",
+    "Subtle Inline Title",
+    "Neon Header",
+    "Colors",
+    "supercharged-links-gen",
+    "SVGs",
+    "Override supercharged-links-gen",
+    "Translucent Markdown View",
+    "Background",
+    "Colored Markdown View",
+    "Custom Classes"
+  ],
+  "theme": "obsidian",
+  "translucency": true,
+  "showViewHeader": true
 }

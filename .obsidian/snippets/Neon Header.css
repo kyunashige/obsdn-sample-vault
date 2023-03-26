@@ -1,0 +1,93 @@
+/* ヘッダーにレベルごとに色を付ける */
+.theme-dark {
+    --h1-color: var(--pink);
+    --h2-color: var(--sky);
+    --h3-color: var(--green);
+    --h4-color: var(--yellow);
+    --h5-color: var(--red);
+    --h6-color: var(--blue);
+}
+
+.theme-light {
+    --h1-color: var(--pink-light);
+    --h2-color: var(--sky-light);
+    --h3-color: var(--green-light);
+    --h4-color: var(--yellow-light);
+    --h5-color: var(--red-light);
+    --h6-color: var(--blue-light);
+}
+
+:root {
+    --blur-width: 0em;
+    --stroke-width: 0px;
+}
+
+.HyperMD-header-1,
+.markdown-rendered h1 {
+    text-shadow: 0 0 var(--blur-width) var(--h1-color);
+    -webkit-text-stroke: var(--stroke-width) var(--h1-color);
+}
+
+.HyperMD-header-2,
+.markdown-rendered h2 {
+    text-shadow: 0 0 var(--blur-width) var(--h2-color);
+    -webkit-text-stroke: var(--stroke-width) var(--h2-color);
+}
+
+.HyperMD-header-3,
+.markdown-rendered h3 {
+    text-shadow: 0 0 var(--blur-width) var(--h3-color);
+    -webkit-text-stroke: var(--stroke-width) var(--h3-color);
+}
+
+.HyperMD-header-4,
+.markdown-rendered h4 {
+    text-shadow: 0 0 var(--blur-width) var(--h4-color);
+    -webkit-text-stroke: var(--stroke-width) var(--h4-color);
+}
+
+.HyperMD-header-5,
+.markdown-rendered h5 {
+    text-shadow: 0 0 var(--blur-width) var(--h5-color);
+    -webkit-text-stroke: var(--stroke-width) var(--h5-color);
+}
+
+.HyperMD-header-6,
+.markdown-rendered h6 {
+    text-shadow: 0 0 var(--blur-width) var(--h6-color);
+    -webkit-text-stroke: var(--stroke-width) var(--h6-color);
+}
+
+/* 不透明の白を被せる */
+.theme-dark .HyperMD-header,
+.theme-dark .markdown-rendered h1,
+.theme-dark .markdown-rendered h2,
+.theme-dark .markdown-rendered h3,
+.theme-dark .markdown-rendered h4,
+.theme-dark .markdown-rendered h5,
+.theme-dark .markdown-rendered h6 {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* PDF 出力時 */
+@media print {
+    .theme-dark .markdown-rendered h1,
+    .theme-dark .markdown-rendered h2,
+    .theme-dark .markdown-rendered h3,
+    .theme-dark .markdown-rendered h4,
+    .theme-dark .markdown-rendered h5,
+    .theme-dark .markdown-rendered h6 {
+        color: var(--text-accent);
+    }
+}
+
+/* ヘッダーに合わせて，箇条書きにも色をつける */
+.theme-dark {
+    --list-marker-color: rgba(202, 253, 201, 0.8);
+    --checkbox-border-color: var(--list-marker-color);
+}
+
+.theme-light {
+    --list-marker-color: rgba(82, 195, 81, 0.8);
+    --checkbox-border-color: var(--list-marker-color);
+}

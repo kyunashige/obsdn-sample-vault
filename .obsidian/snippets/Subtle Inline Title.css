@@ -1,0 +1,16 @@
+.inline-title {
+    --inline-title-line-height: 1em;
+    --inline-title-size: var(--file-header-font-size);
+    --inline-title-weight: var(--file-header-font-weight);
+    padding: 3px;
+    color: var(--text-muted);
+}
+
+.inline-title::before {
+    margin-left: var(--inline-title-offset);
+    content: "\"";
+}
+
+.inline-title::after {
+    content: ".md\""
+}

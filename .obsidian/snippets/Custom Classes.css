@@ -1,0 +1,14 @@
+.cm-hashtag[class*="cm-tag-gaming"],
+.tag[href^="#gaming"] {
+    animation: hueRotate 3s linear infinite;
+}
+
+@keyframes hueRotate {
+    from {
+        filter: hue-rotate(0deg);
+    }
+
+    to {
+        filter: hue-rotate(360deg);
+    }
+}

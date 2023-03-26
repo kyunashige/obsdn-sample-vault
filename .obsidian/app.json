@@ -1,1 +1,7 @@
-{}
+{
+  "readableLineLength": false,
+  "useTab": false,
+  "attachmentFolderPath": "./assets/README",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Tray"
+}

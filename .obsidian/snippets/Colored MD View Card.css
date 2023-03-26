@@ -1,0 +1,94 @@
+/* @settings
+
+name: Colored MD View Card
+id: colored-mdview-card-custom
+settings:
+    -
+        id: my-info-text
+        title: 左上から右下にかけてのグラデーション
+        description: Translucent window が有効な場合はウィンドウ全体が，無効の場合は Markdown View の背景色がグラデーションになります
+        type: info-text
+        markdown: true
+    -
+        id: color-top-left
+        title: Top Left Color (Window)
+        type: variable-themed-color
+        opacity: true
+        format: hex
+        default-light: '#ec73d4'
+        default-dark: '#421600'
+    -
+        id: color-bottom-right
+        title: Bottom Right Color (Window)
+        type: variable-themed-color
+        opacity: true
+        format: hex
+        default-light: '#ee983c'
+        default-dark: '#ff661a'
+    -
+        id: mdview-color
+        title: Background Color (MD View, overwrapped)
+        type: variable-themed-color
+        opacity: true
+        format: hex
+        default-light: '#f9ccd966'
+        default-dark: '#0d050139'
+    -
+        id: mdview-shadow-color
+        title: Background Shadow Color (MD View, overwrapped)
+        description: Enabled when the window is translucent.
+        type: variable-themed-color
+        opacity: true
+        format: hex
+        default-light: '#631b5c80'
+        default-dark: '#54291366'
+*/
+.theme-light {
+    /* 春，桃 */
+    --color-top-left: #ec73d4;
+    --color-bottom-right: #ee983c;
+    --mdview-color: #f9ccd966;
+    --mdview-shadow-color: #631b5c80;
+}
+
+.theme-dark {
+    /* 秋，銅 */
+    --color-top-left: #421600;
+    --color-bottom-right: #ff661a;
+    --mdview-color: #0d050139;
+    --mdview-shadow-color: #54291366;
+}
+
+/* 背景に色をつける */
+body:not(.is-translucent) .workspace .workspace-leaf-content[data-type='markdown'] {
+    --two-colors: var(--color-top-left), var(--color-bottom-right);
+    background: linear-gradient(150deg, var(--two-colors));
+}
+
+.is-translucent .workspace {
+    --two-colors: var(--color-top-left), var(--color-bottom-right);
+    background: linear-gradient(150deg, var(--two-colors));
+}
+
+.is-translucent .workspace .workspace-leaf-content[data-type='markdown'] {
+    background-color: var(--mdview-color);
+    border: none;
+    box-shadow: 0 0 10px 1px var(--mdview-shadow-color);
+}
+
+/* Markdown View をカード風にする */
+.workspace .workspace-leaf {
+    padding-right: 10px;
+}
+
+.workspace .workspace-leaf-content[data-type='markdown'] {
+    margin: 10px 0px 23px 10px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: var(--radius-l) 0 0 var(--radius-l);
+}
+
+.is-focused .workspace-leaf.mod-active .view-header,
+.workspace-leaf.mod-active .view-header,
+.workspace-leaf.mod-active .view-content {
+    background-color: var(--mdview-color);
+}

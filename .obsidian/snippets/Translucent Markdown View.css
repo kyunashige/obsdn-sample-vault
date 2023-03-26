@@ -1,0 +1,53 @@
+/* Translucent Window 有効時に，各コンポーネントを透明にする */
+/* Tab Header */
+.is-translucent .workspace-tab-header.is-active {
+    background-color: transparent;
+}
+
+.is-translucent .workspace-split.mod-root .workspace-tab-header.is-active::before,
+.is-translucent .workspace-split.mod-root .workspace-tab-header.is-active::after {
+    box-shadow: none;
+}
+
+/* Tab Title Bar */
+.is-translucent.show-view-header .workspace-leaf .view-header {
+    background-color: transparent;
+}
+.view-header-title-container:not(.mod-at-end)::after {
+    background: transparent;
+}
+
+/* Markdown View */
+.is-translucent .workspace-split.mod-root .view-content {
+    background-color: transparent;
+}
+
+.is-translucent .workspace-leaf-content[data-type='markdown'] {
+    background-color: transparent;
+}
+
+/* Status Bar */
+.is-translucent .status-bar {
+    background-color: transparent;
+}
+
+/* Divider */
+.obsidian-app.is-translucent {
+    --divider-color: transparent;
+}
+
+.workspace-split.mod-left-split > .workspace-leaf-resize-handle {
+    padding-left: 30px;
+}
+
+.workspace-split.mod-left-split > .workspace-leaf-resize-handle:hover {
+    background: linear-gradient(
+        to right,
+        var(--workspace-background-translucent) 75%,
+        transparent);
+}
+
+/* Search Result */
+.search-result-file-matches {
+    --search-result-background: transparent;
+}

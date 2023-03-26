@@ -1,0 +1,62 @@
+{
+  "targetAttributes": [],
+  "targetTags": true,
+  "getFromInlineField": true,
+  "enableTabHeader": true,
+  "activateSnippet": true,
+  "enableEditor": true,
+  "enableFileList": true,
+  "enableBacklinks": true,
+  "enableQuickSwitcher": true,
+  "enableSuggestor": true,
+  "selectors": [
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Obsidian",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "a307-8eec",
+      "selectText": false,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "Obsidian/plugin",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "d3f6-685f",
+      "selectText": false,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "path",
+      "name": "",
+      "value": "Templates",
+      "matchCaseSensitive": false,
+      "match": "startswith",
+      "uid": "d6d7-a60f",
+      "selectText": false,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "path",
+      "name": "",
+      "value": "Diary",
+      "matchCaseSensitive": false,
+      "match": "startswith",
+      "uid": "0e9e-cd96",
+      "selectText": false,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    }
+  ]
+}

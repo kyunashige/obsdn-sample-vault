@@ -1,0 +1,9 @@
+div[data-id="a307-8eec"] div.setting-item-description::before,
+.data-link-icon[data-link-tags*="Obsidian" i]::before {
+    --a307-8eec-before: var(--obsidian-logo-13px);
+}
+
+div[data-id="d3f6-685f"] div.setting-item-description::before,
+.data-link-icon[data-link-tags*="Obsidian/plugin" i]::before {
+    --d3f6-685f-before: var(--obsidian-logo-13px) "Plugin: ";
+}

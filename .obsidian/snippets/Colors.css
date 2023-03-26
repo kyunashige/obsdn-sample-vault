@@ -1,0 +1,42 @@
+:root {
+    --black: hsl(0, 0%, 0%);
+    --white: hsl(0, 0%, 100%);
+    /* Munsell (v, c) = (2, 3.5)*/
+    /* h in {2.5R, 2.5YR, 10YR, 2.5GY, 10GY, 7.5G, 7.5B, 2.5PB, 10PB, 2.5RP} */
+    --red-dark: hsl(346, 32%, 22%);
+    --orange-dark: hsl(11, 40%, 20%);
+    --yellow-dark: hsl(32, 57%, 16%);
+    --lime-dark: hsl(69, 48%, 14%);
+    --green-dark: hsl(130, 29%, 16%);
+    --emerald-dark: hsl(162, 46%, 15%);
+    --sky-dark: hsl(199, 60%, 17%);
+    --blue-dark: hsl(210, 42%, 20%);
+    --purple-dark: hsl(256, 23%, 22%);
+    --pink-dark: hsl(319, 26%, 21%);
+    --gray-dark: hsl(0, 0%, 19%);
+    /* Munsell (v, c) = (6, 7.5)*/
+    /* also used in neon.css */
+    --red: hsl(358, 44%, 65%);
+    --orange: hsl(20, 53%, 58%);
+    --yellow: hsl(37, 52%, 49%);
+    --lime: hsl(66, 54%, 39%);
+    --green: hsl(116, 28%, 50%);
+    --emerald: hsl(162, 55%, 42%);
+    --sky: hsl(196, 53%, 49%);
+    --blue: hsl(207, 46%, 58%);
+    --purple: hsl(247, 31%, 66%);
+    --pink: hsl(326, 33%, 62%);
+    --gray: hsl(0, 0%, 58%);
+    /* Munsell (v, c) = (9, 2.5)*/
+    --red-light: hsl(300, 55%, 91%);
+    --orange-light: hsl(20, 78%, 89%);
+    --yellow-light: hsl(36, 72%, 86%);
+    --lime-light: hsl(64, 46%, 82%);
+    --green-light: hsl(111, 43%, 85%);
+    --emerald-light: hsl(151, 51%, 85%);
+    --sky-light: hsl(195, 54%, 87%);
+    --blue-light: hsl(208, 50%, 89%);
+    --purple-light: hsl(244, 33%, 91%);
+    --pink-light: hsl(333, 37%, 91%);
+    --gray-light: hsl(0, 0%, 90%);
+}

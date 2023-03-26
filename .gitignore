@@ -1,0 +1,14 @@
+# Common
+.trash
+.DS_Store
+/**/__pycache__/
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/vault-stats.json
+conflict-files-obsidian-git.md
+
+# Plugins
+.obsidian/plugins/obsidian-activity-history/data.json
+.obsidian/plugins/obsidian-commits/data.json
+.obsidian/plugins/recent-files-obsidian/data.json
