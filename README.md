@@ -11,7 +11,7 @@ tags: [Obsidian]
 
 ## 使い方
 
-1. `git clone https://github.com/kyunashige/obsdn-sample-vault.git obsdn-test-test`
+1. `git clone https://github.com/kyunashige/obsdn-sample-vault.git`
 2. [[Obsidian]] で Open Vault > Open folder as vault
 3. まずは「ここで紹介する設定・機能」をご覧ください
 
