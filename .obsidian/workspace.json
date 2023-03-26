@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "064241776275c796",
+        "id": "a94f4e512f49f51d",
         "type": "tabs",
         "children": [
           {
-            "id": "9d3f2741d6701b78",
+            "id": "54a3f05b23004384",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hotkey",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "df35e4bbf1976df1",
@@ -86,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.5
+    "width": 244.5
   },
   "right": {
     "id": "1bae80f031492e67",
@@ -190,18 +190,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9d3f2741d6701b78",
+  "active": "54a3f05b23004384",
   "lastOpenFiles": [
-    "Tray/2023/03/Callout.md",
-    "README.md",
-    "Tray/2023/03/おすすめの初期設定.md",
-    "Tray/2023/03/おすすめの Plugin.md",
-    "Diary/2023/03/2023-03-26_Sun.md",
     "Tray/2023/03/Tasks of obsdn-sample-vault.md",
+    "README.md",
     "Tray/All Notes @ Tray.md",
+    "Tray/2023/03/英語.md",
+    "Tray/2023/03/おすすめの初期設定.md",
+    "Tray/2023/03/日本語.md",
+    "Tray/Untitled.md",
+    "Diary/2023/03/2023-03-26_Sun.md",
+    "Tray/2023/03/おすすめの Plugin.md",
+    "Assets/svg/hexomino-6x11.svg",
+    "Assets/svg/puzzle-pieces.svg.xml",
+    "Assets/svg/puzzle-pieces.svg",
+    "Assets/svg/hexomino-6x11.svg.xml",
+    "Tray/2023/03/Obsidian.md",
+    "Tray/2023/03/Callout.md",
     "Diary/2023/03/2023-03-25_Sat.md",
     "Tray/2023/03/CSS snippets.md",
-    "Tray/2023/03/Obsidian.md",
     "Tray/2023/03/Notion.md",
     "Tray/2023/03/2023-03-19_Sun.md",
     "Diary/2022/07/2022-07-13_Wed.md",
@@ -221,13 +228,8 @@
     "Diary",
     "Templates/Templater/templates/MoveScatteredFile.md",
     "Tray/2023/03/Obsidian のタグ.md",
-    "Tray/2023/03/Obsidian で日記を書く.md",
-    "Tray/2023/03/Obsidian の Metadata.md",
-    "Tray/2023/03/Untitled.md",
     "Templates/Templater",
     "Tray/2023/03",
-    "Tray/2023",
-    "Tray",
     "Assets/svg/Obsidian Logo.svg",
     "Tray/2023/03/assets/test;hlh/image-20230325T202700541.png"
   ]

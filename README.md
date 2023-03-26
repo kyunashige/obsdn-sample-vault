@@ -3,9 +3,21 @@ aliases: []
 tags: [Obsidian]
 ---
 
+%% [Obsidian](https://obsidian.md/) からご覧ください %%
+
 # Sample of Obsidian vault
 
 自分なりの [[Obsidian]] の使い方を紹介する vault．
+
+## 使い方
+
+1. `git clone https://github.com/kyunashige/obsdn-sample-vault.git obsdn-test-test`
+2. [[Obsidian]] で Open Vault > Open folder as vault
+3. まずは「ここで紹介する設定・機能」をご覧ください
+
+> [!info] お急ぎの方へ
+> 
+> [[おすすめの Plugin]] のプラグインをすべてインストール＆有効化することで，すべての機能が使えるようになります．
 
 ## 紹介する機能
 

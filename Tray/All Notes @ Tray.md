@@ -63,6 +63,8 @@ columns:
       - { label: "<% tp.user.organizer(tp).getTags() %><% tp.file.cursor(1) %>", value: "<% tp.user.organizer(tp).getTags() %><% tp.file.cursor(1) %>", color: "hsl(3, 95%, 90%)"}
       - { label: "App/Desktop", value: "App/Desktop", color: "hsl(248, 95%, 90%)"}
       - { label: "App/Web", value: "App/Web", color: "hsl(171, 95%, 90%)"}
+      - { label: "言語/英語", value: "言語/英語", color: "hsl(33, 95%, 90%)"}
+      - { label: "言語/日本語", value: "言語/日本語", color: "hsl(232, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true

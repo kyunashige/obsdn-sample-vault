@@ -2,7 +2,7 @@
 -%>
 ---
 aliases: []
-Tags: [<% tp.user.organizer(tp).getTags() %><% tp.file.cursor(1) %>]
+tags: [<% tp.user.organizer(tp).getTags() %><% tp.file.cursor(1) %>]
 ---
 
 # <% tp.user.organizer(tp).create() %>

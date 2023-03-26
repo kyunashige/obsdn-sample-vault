@@ -11,12 +11,13 @@ kanban-plugin: basic
 
 ## WIP
 
-- [ ] 配布状態との齟齬がないか調べる<br><br>`git push` した後 `git clone` して確認 ^n4nhz9
 
 
 ## Done
 
 **Complete**
+- [x] [[おすすめの Plugin#Supercharged Links]] + [[Obsidian の Metadata]] の紹介
+- [x] 配布状態との齟齬がないか調べる<br><br>`git push` した後 `git clone` して確認 ^n4nhz9
 - [x] Daily note のサンプルを作る<br><br>- [[2022-07-13_Wed]]
 - [x] [[CSS snippets]]
 - [x] ![[Obsidian#^introduced]]

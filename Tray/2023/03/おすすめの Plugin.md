@@ -7,6 +7,14 @@ tags: [Obsidian/拡張]
 
 << [[Obsidian]]
 
+> [!warning] ここでは雰囲気だけ紹介します
+> 
+> 細かい使い方は，それぞれの README 等をご参照ください．
+
+> [!todo] Restricted mode はオフにしましたか？
+> 
+> [[おすすめの初期設定#Community plugins を使えるようにする]] を先に済ませておきましょう．
+
 ## もはや必須になりつつあるプラグイン
 
 他のプラグインを使うために必要になることもある．
@@ -81,7 +89,7 @@ tags: [Obsidian/拡張]
 - 日次だけでなく，週次・月次・四半期・年次のメモを作成できる
     - → [[Obsidian で日記を書く#設定]]
 
-## エディタ関連
+## エディタ周り
 
 ### Admonition
 
@@ -101,7 +109,7 @@ tags: [Obsidian/拡張]
 
 ## ノート等を並べる
 
-### DB Folder
+### Database Folder (DB Folder)
 
 - [code](https://github.com/RafaelGB/obsidian-db-folder)
 - [[Notion]] のデータベース風なことができる
@@ -121,7 +129,19 @@ tags: [Obsidian/拡張]
 - 直近で開いたノートのリストを表示できる
     - → [[おすすめの初期設定#直近で開いたノートのリストを表示できるようにする]]
 
+## おまけ
+
+### Diagrams.Net (Diagrams.net)
+
+- [code](https://github.com/jensmtg/obsidian-diagrams-net)
+- [[Obsidian]] の中で，[diagrams.net](https://diagrams.net/) (previously draw.io) と同じことができる
+    - ![[puzzle-pieces.svg|100]]
+    - "Edit diagram" で編集できる
+        - $5 \times 7$ の長方形を作ってみてください[^1]
+
 ## 参考になるサイト
 
 - [コミュニティプラグイン全集 改訂版](https://pouhon.net/obsidian-plugins2/7449/)
     - HUNTER×HUNTER の念能力になぞらえて紹介されている
+
+[^1]: https://github.com/kyunashige/polyform-puzzle-solver/blob/main/puzzles/Polyomino/5x7-8p-1.yaml

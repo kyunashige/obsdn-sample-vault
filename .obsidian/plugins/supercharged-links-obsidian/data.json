@@ -1,5 +1,7 @@
 {
-  "targetAttributes": [],
+  "targetAttributes": [
+    "category"
+  ],
   "targetTags": true,
   "getFromInlineField": true,
   "enableTabHeader": true,
@@ -53,6 +55,30 @@
       "matchCaseSensitive": false,
       "match": "startswith",
       "uid": "0e9e-cd96",
+      "selectText": false,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "category",
+      "value": "Person",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "efd0-4b56",
+      "selectText": false,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "category",
+      "value": "Language",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "1e74-fa3b",
       "selectText": false,
       "selectAppend": false,
       "selectPrepend": true,
